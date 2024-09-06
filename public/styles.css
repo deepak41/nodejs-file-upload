@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 1.5em;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: #004996;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003369;
+}
+
+#message {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-size: 18px;
+}
+
+input[type="file"] {
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 auto 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  width: calc(100% - 40px);
+  display: block;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #fff;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+  box-shadow: 5px 5px 8px lightblue;
+}
